@@ -1,4 +1,4 @@
-﻿Catho test
+Catho test
 ==========
 
 Projeto BackEnd Catho.
