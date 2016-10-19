@@ -37,7 +37,7 @@ Considerações:
 			   
 	Manutenção: Utilização da interface de busca para criar novos filtros  
 	Json:       Cuidado ao abrir os arquivos desse projeto em editores Windows, pois a formatação  
-				pode ser modificada para UTF com DOM, o que pode gerar um Json inválido como resposta.  
+				pode ser modificada para UTF com BOM, o que pode gerar um Json inválido como resposta.  
 	
 Testes:  
 	Para rodar os testes unitários é necessário a utilização do framework PHPUnit.  
