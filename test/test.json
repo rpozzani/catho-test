@@ -1,0 +1,13 @@
+{
+	"docs": [
+		{
+			"title": "Analista de Suporte de TI",
+			"description": "<li> Prestar atendimento remoto e presencial a clientes. Atuar com suporte de TI.</li><li> Conhecimento aprofundado em Linux Server (IPTables, proxy, mail, samba) e Windows Server(MS-AD, WTS, compartilhamentos).</li>",
+			"salario": 3200,
+			"cidade": [
+				"Joinville"
+			],
+			"cidadeFormated": [
+				"Joinville - SC (1)"
+			]
+		}]}
