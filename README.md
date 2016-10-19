@@ -5,7 +5,7 @@ Projeto BackEnd Catho.
 por: Ramiro Pozzani
 
 Pré requisitos:
-	Servidor WEB rodando uma versão atualizada (>5) do PHP
+	Servidor WEB (Windows/Linux) rodando uma versão atualizada (>5) do PHP
 
 Geral:
 	API retorna um Json baseado em filtros que o usuário escolheu
@@ -30,6 +30,7 @@ Arquivos:
 	/test/CathoTest.php - Classe para os testes unitários utilizando PHPUnit
 	
 Considerações:
+
 	Segurança: Filtro nos parametros GET
 			   Limite para a busca textual com tamanho > 3 .  Evitando que 
 			   um usuário faça consecutivas buscas que retornem um grande número de resultados
@@ -51,5 +52,5 @@ Testes:
 		OBS: Os arquivos .xml estão adicionados no pull
 		
 	Após a instalação basta rodar na pasta root do projeto o comando:
-		vendor\bin\phpunit 
+		vendor\bin\phpunit  
 	
