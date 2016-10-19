@@ -1,4 +1,6 @@
 <?php
+	// Function necessary to add the classes
+	// Also checks if the user input is correct
 	function filter_get($params){
 		$allowed = array("texto","cidade");
 		$result = array();

@@ -1,14 +1,16 @@
 <?php
 	require_once "filter_int.php";
+	
+	// Class to filter the data based on the city
 	class Filtercidade implements FilterData {
-		public function filter($vagas,$cidade){
-			$cidade = strtolower($cidade);
-			$vagas_aux = array();
-			foreach($vagas as $vaga){
-				if ( strpos (strtolower($vaga['cidade'][0]), $cidade) !== false)
-					$vagas_aux[] = $vaga; 
+		public function filter($data,$city){
+			$city = strtolower($city);
+			$data_aux = array();
+			foreach($data as $dat){
+				if ( strpos (strtolower($dat['cidade'][0]), $city) !== false)
+					$data_aux[] = $dat; 
 			}
-			return $vagas_aux;
+			return $data_aux;
 		
 		}
 }
